@@ -1,0 +1,1 @@
+# odoo_apps_public_own_addons
