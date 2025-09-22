@@ -1,0 +1,38 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* lf_pos_extend_customer_name_button
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-12-30 11:14+0000\n"
+"PO-Revision-Date: 2024-12-30 11:14+0000\n"
+"Last-Translator: Leo Daniel Flores Sánchez <l30dfs@gmail.com>, 2025\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: lf_pos_extend_customer_name_button
+#: model:ir.model,name:lf_pos_extend_customer_name_button.model_res_config_settings
+msgid "Config Settings"
+msgstr "Ajustes de configuración"
+
+#. module: lf_pos_extend_customer_name_button
+#: model_terms:ir.ui.view,arch_db:lf_pos_extend_customer_name_button.res_config_settings_view_form
+msgid "Enable this option to display the full customer name on the button"
+msgstr "Habilite esta opción para mostrar el nombre completo del cliente en el botón"
+
+#. module: lf_pos_extend_customer_name_button
+#: model:ir.model.fields,field_description:lf_pos_extend_customer_name_button.field_pos_config__extend_customer_name_button
+#: model:ir.model.fields,field_description:lf_pos_extend_customer_name_button.field_res_config_settings__pos_extend_customer_name_button
+#: model_terms:ir.ui.view,arch_db:lf_pos_extend_customer_name_button.res_config_settings_view_form
+msgid "Extend Customer Name on Button"
+msgstr "Ampliar el nombre del cliente en el botón"
+
+#. module: lf_pos_extend_customer_name_button
+#: model:ir.model,name:lf_pos_extend_customer_name_button.model_pos_config
+msgid "Point of Sale Configuration"
+msgstr "Configuración del punto de venta"

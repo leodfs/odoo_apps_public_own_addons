@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+    <t t-name="SelectPartnerButton" t-inherit="point_of_sale.SelectPartnerButton" t-inherit-mode="extension">
+        <xpath expr="//button" position="attributes">
+            <attribute name="class">set-partner btn btn-light btn-lg lh-lg w-auto</attribute>
+            <attribute name="t-attf-class">{{getButtonClasses()}}</attribute>       
+        </xpath>
+        <xpath expr="//div" position="attributes">
+            <attribute name="class">text-action</attribute>
+            <attribute name="t-attf-class">{{getButtonClasses()}}</attribute>
+            <attribute name="t-esc">customerName</attribute>
+        </xpath>
+    </t>
+</templates>
