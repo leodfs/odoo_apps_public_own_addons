@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+
+    <record id="res_config_settings_view_form" model="ir.ui.view">
+        <field name="name">res.config.settings.view.form.inherit.lf_pos_default_customer</field>
+        <field name="model">res.config.settings</field>
+        <field name="inherit_id" ref="point_of_sale.res_config_settings_view_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//setting[@id='auto_printing']" position="after">
+                <setting id="pos_default_customer_id" help="Set this customer as default in POS order">
+                    <field name="pos_default_customer_id"/>
+                </setting>
+            </xpath>
+        </field>
+    </record>
+
+</odoo>

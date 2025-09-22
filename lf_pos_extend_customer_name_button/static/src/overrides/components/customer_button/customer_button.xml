@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+    <t t-inherit="point_of_sale.CustomerButton" t-inherit-mode="extension">
+        <xpath expr="//div" position="attributes">
+            <attribute name="class">control-button customer-button btn rounded-0 fw-bolder</attribute>
+            <attribute name="t-attf-class">{{getButtonClasses()}}</attribute>       
+        </xpath>
+        <xpath expr="//t[@t-esc='this.partner.name']" position="replace">
+            <t t-esc="customerName" t-if="this.partner" />  
+        </xpath>
+    </t>
+</templates>
