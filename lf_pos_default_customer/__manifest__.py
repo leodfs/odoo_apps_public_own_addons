@@ -21,6 +21,10 @@ This module allows you to configure a default client for each point of sale.
             'lf_pos_default_customer/static/src/**/*',
         ],
     },
+    "images": [
+        "static/description/banner.png", 
+        "static/description/icon.png"
+    ],
     'module_type': 'official',
     'application': False,
     'installable': True,
