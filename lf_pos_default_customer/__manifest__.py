@@ -22,7 +22,7 @@ This module allows you to configure a default client for each point of sale.
         ],
     },
     "images": [
-        "static/description/banner.png", 
+        "static/description/banner.jpg", 
         "static/description/icon.png"
     ],
     'module_type': 'official',
