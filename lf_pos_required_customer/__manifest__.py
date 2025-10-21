@@ -23,7 +23,7 @@ before processing the order in the point of sale.
         ],
     },
     "images": [
-        "static/description/banner.png", 
+        "static/description/banner.jpg", 
         "static/description/icon.png"
     ],
     'module_type': 'official',
