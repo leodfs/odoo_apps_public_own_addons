@@ -21,6 +21,10 @@ This module extends the customer name on button in the point of sale.
             'lf_pos_extend_customer_name_button/static/src/**/*',
         ],
     },
+    "images": [
+        "static/description/banner.jpg", 
+        "static/description/icon.png"
+    ],
     'module_type': 'official',
     'application': False,
     'installable': True,

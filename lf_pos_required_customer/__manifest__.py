@@ -22,6 +22,10 @@ before processing the order in the point of sale.
             'lf_pos_required_customer/static/src/**/*',
         ],
     },
+    "images": [
+        "static/description/banner.jpg", 
+        "static/description/icon.png"
+    ],
     'module_type': 'official',
     'application': False,
     'installable': True,
