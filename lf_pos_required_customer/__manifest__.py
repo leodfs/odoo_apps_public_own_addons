@@ -4,6 +4,7 @@
     'author': 'Leo Daniel FS',
     'maintainer': 'Leo Daniel FS',
     'support': 'l30dfs@gmail.com',
+    'website': 'https://www.linkedin.com/in/leo-daniel-flores',
     'summary': 'Require customer at the point of sale',
     'description': """
 This module requires the user to select a customer 

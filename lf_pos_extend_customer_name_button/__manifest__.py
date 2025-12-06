@@ -4,6 +4,7 @@
     'author': 'Leo Daniel FS',
     'maintainer': 'Leo Daniel FS',
     'support': 'l30dfs@gmail.com',
+    'website': 'https://www.linkedin.com/in/leo-daniel-flores',
     'summary': 'Extend the customer name on button in the point of sale',
     'description': """
 This module extends the customer name on button in the point of sale.
