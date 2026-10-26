@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+
+    <t t-name="OrderWidget" t-inherit="point_of_sale.OrderWidget" t-inherit-mode="extension">
+        <xpath expr="//div[hasclass('order-summary')]" position='inside'>
+            <div id='item_count_value' style='float:left;'>
+                Total Items in Cart: <t t-esc='item_count'/>
+            </div>
+        </xpath>
+
+    </t>
+    <t t-name="OrderReceipt" t-inherit="point_of_sale.OrderReceipt" t-inherit-mode="extension">
+        <xpath expr="//div[hasclass('before-footer')]" position="inside">
+            <br/>
+            <div>
+                Total Items:
+                <span t-esc='props.data.item_count' class="pos-receipt-right-align"/>
+            </div>
+        </xpath>
+    </t>
+
+</templates>
