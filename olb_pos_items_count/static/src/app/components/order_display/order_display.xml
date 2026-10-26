@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+
+    <!-- First row of the summary, styled like Subtotal and Taxes. -->
+    <t t-name="olb_pos_items_count.OrderDisplay" t-inherit="point_of_sale.OrderDisplay" t-inherit-mode="extension">
+        <xpath expr="//div[hasclass('order-summary')]" position="inside">
+            <div class="items-count subentry d-flex justify-content-between w-100 fs-6 text-muted order-first">
+                <span>Total Items</span>
+                <span t-esc="env.utils.formatProductQty(order.itemCount, false)"/>
+            </div>
+        </xpath>
+    </t>
+
+</templates>
