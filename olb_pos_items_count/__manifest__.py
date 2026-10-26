@@ -27,6 +27,10 @@ customers often ask how many items they are paying for.
         # Odoo community
         "point_of_sale",
     ],
+    "images": [
+        "static/description/banner.png",
+        "static/description/icon.png",
+    ],
     "assets": {
         "point_of_sale._assets_pos": [
             "olb_pos_items_count/static/src/**/*",
