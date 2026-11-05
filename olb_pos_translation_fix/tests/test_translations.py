@@ -4,6 +4,7 @@ from odoo.tools.translate import PoFileReader, TranslationModuleReader
 
 # Every text the module writes as a translatable one.
 TERMS = {
+    "Actions",
     "Confirm",
     "Discard",
     "Loading...",

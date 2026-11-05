@@ -80,6 +80,28 @@ registry.category("web_tour.tours").add("olb_pos_translation_fix.SpanishTextsTou
             ReceiptScreen.clickNextOrder(),
             ProductScreen.isShown(),
 
+            // Actions window: its title.
+            ProductScreen.clickDisplayedProduct("Whiteboard Pen"),
+            {
+                content: "open the Actions window",
+                trigger: ".product-screen .control-buttons button:contains('Acciones')",
+                run: "click",
+            },
+            {
+                content: "the Actions window has its title in Spanish",
+                trigger: ".modal .modal-header .modal-title:contains('Acciones')",
+            },
+            {
+                content: "close the Actions window",
+                trigger: ".modal .modal-header .btn-close",
+                run: "click",
+            },
+            {
+                content: "the Actions window is closed",
+                trigger: negate(".modal .modal-title:contains('Acciones')"),
+            },
+            ProductScreen.isShown(),
+
             // Ticket screen: an empty search and no selected order.
             ...openMenuItem("open the orders", /^Órdenes/),
             {

@@ -16,6 +16,7 @@ Este módulo hace que esos textos se puedan traducir y trae su traducción al es
 |---|---|---|
 | Ventanas numéricas (PIN del empleado, descuento, precio, cantidad, comensales, propina) | Ok, Discard | Confirmar, Descartar |
 | Lista de órdenes | Loading..., No orders found, Select an order | Cargando..., No se encontraron órdenes, Seleccione una orden |
+| Título de la ventana Acciones | Actions | Acciones |
 | Lote o número de serie de una línea | Valid product lot, Invalid product lot | Lote de producto válido, Lote de producto no válido |
 | Campo de correo de la pantalla del ticket | e.g. john.doe@mail.com | p. ej., juan.perez@correo.com |
 | Entrada y salida de efectivo: aviso, ticket, nota de la sesión y etiqueta | out, in | Salida de efectivo, Entrada de efectivo |
@@ -50,6 +51,8 @@ No hay nada que configurar.
 ![La lista de órdenes cuando nada coincide](images/es/02_no_orders.png)
 
 ![La lista de órdenes antes de elegir una](images/es/06_select_order.png)
+
+![La ventana Acciones, con su título traducido](images/es/08_actions.png)
 
 ![Una salida de efectivo](images/es/03_cash_out.png)
 

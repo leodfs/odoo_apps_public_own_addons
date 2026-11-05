@@ -26,7 +26,8 @@ Usage
 =====
 
 Nothing to set up. With a cashier working in Spanish, the texts listed in the
-manual appear translated: the list of orders, the cash in and out
+manual appear translated: the number windows, the list of orders, the title
+of the Actions window, the cash in and out
 notification, receipt and label, the e-mail field of the receipt screen and
 the lot icons of a line.
 

@@ -16,6 +16,7 @@ This module makes those texts translatable and ships their Spanish translation. 
 |---|---|---|
 | Number windows (employee PIN, discount, price, quantity, guests, tip) | Ok, Discard | Confirmar, Descartar |
 | List of orders | Loading..., No orders found, Select an order | Cargando..., No se encontraron órdenes, Seleccione una orden |
+| Title of the Actions window | Actions | Acciones |
 | Lot or serial number of a line | Valid product lot, Invalid product lot | Lote de producto válido, Lote de producto no válido |
 | E-mail field of the receipt screen | e.g. john.doe@mail.com | p. ej., juan.perez@correo.com |
 | Cash in and out: notification, receipt, session note and label | out, in | Salida de efectivo, Entrada de efectivo |
@@ -52,6 +53,8 @@ The screenshots come from a point of sale in Spanish.
 ![The list of orders when nothing matches](images/en/02_no_orders.png)
 
 ![The list of orders before choosing one](images/en/06_select_order.png)
+
+![The Actions window, with its title translated](images/en/08_actions.png)
 
 ![A cash out](images/en/03_cash_out.png)
 

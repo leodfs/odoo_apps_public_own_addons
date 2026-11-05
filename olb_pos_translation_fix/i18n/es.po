@@ -18,6 +18,12 @@ msgstr ""
 
 #. module: olb_pos_translation_fix
 #. odoo-javascript
+#: code:addons/olb_pos_translation_fix/static/src/app/control_buttons/control_buttons_popup.js:0
+msgid "Actions"
+msgstr "Acciones"
+
+#. module: olb_pos_translation_fix
+#. odoo-javascript
 #: code:addons/olb_pos_translation_fix/static/src/app/cash_move_popup/cash_move_popup.js:0
 msgid "%(type)s - Amount: %(amount)s"
 msgstr "%(type)s - Importe: %(amount)s"

@@ -1,6 +1,6 @@
 {
     "name": "POS Translation Fix",
-    "version": "18.0.1.0.0",
+    "version": "18.0.1.1.0",
     "author": "Olbrix",
     "company": "Olbrix",
     "maintainer": "Olbrix",
@@ -14,6 +14,8 @@ Some texts of the point of sale of Odoo 18 stay in English whatever the
 language of the cashier: Odoo writes them inside code, where its translations
 never reach. This module writes them so that they are translated, as Odoo 19
 does. It installs by itself with the point of sale.
+
+* **Actions**: the window of the Actions button has its title translated.
 
 * **Number windows**: the windows that ask for a number (employee PIN,
   discount, tip, guests, price, quantity) show *Confirm* and *Discard* in the
