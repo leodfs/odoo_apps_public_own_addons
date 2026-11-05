@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+    <!-- 'Loading...' and 'No orders found' were string literals of an expression.
+         t-translation="off": the value is an expression, not a text for the .po files. -->
+    <t t-name="olb_pos_translation_fix.TicketScreen" t-inherit="point_of_sale.TicketScreen" t-inherit-mode="extension">
+        <xpath expr="//CenteredIcon[contains(@text, 'No orders found')]" position="attributes">
+            <attribute name="text" t-translation="off">emptyOrderListText</attribute>
+        </xpath>
+    </t>
+</templates>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+    <!-- The type now says "Cash In" or "Cash Out": the native "CASH" before it
+         would repeat it. -->
+    <t t-name="olb_pos_translation_fix.CashMoveReceipt" t-inherit="point_of_sale.CashMoveReceipt" t-inherit-mode="extension">
+        <xpath expr="//div[hasclass('pos-receipt-center-align')][t[@t-esc='props.translatedType.toUpperCase()']]" position="replace">
+            <div class="pos-receipt-center-align">
+                <t t-esc="props.translatedType.toUpperCase()"/>
+            </div>
+        </xpath>
+    </t>
+</templates>

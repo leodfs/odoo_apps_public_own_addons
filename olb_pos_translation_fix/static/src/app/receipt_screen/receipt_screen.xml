@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+    <t t-name="olb_pos_translation_fix.ReceiptScreen" t-inherit="point_of_sale.ReceiptScreen" t-inherit-mode="extension">
+        <!-- A t-attf placeholder is never translated; a plain one is. -->
+        <xpath expr="//input[hasclass('send-receipt-email-input')]" position="attributes">
+            <attribute name="t-attf-placeholder"/>
+            <attribute name="placeholder">e.g. john.doe@mail.com</attribute>
+        </xpath>
+    </t>
+</templates>
