@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+    <!-- t-translation="off": the value is an expression, not a text for the .po files. -->
+    <t t-name="olb_pos_translation_fix.TicketScreen" t-inherit="point_of_sale.TicketScreen" t-inherit-mode="extension">
+        <!-- 'Loading...' and 'No orders found' were string literals of an expression. -->
+        <xpath expr="//CenteredIcon[@t-else][@text]" position="attributes">
+            <attribute name="text" t-translation="off">emptyOrderListText</attribute>
+        </xpath>
+        <!-- text.translate takes plain text: the native quotes were shown as well. -->
+        <xpath expr="//CenteredIcon[@text.translate]" position="attributes">
+            <attribute name="text.translate"/>
+            <attribute name="text" t-translation="off">selectOrderText</attribute>
+        </xpath>
+    </t>
+</templates>
